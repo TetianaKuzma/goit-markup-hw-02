@@ -1,0 +1,238 @@
+:root {
+	--primary-text-color: #757575;
+	--secondary-text-color: #212121;
+
+	--primary-title-color: #212121;
+	--secondary-title-color: #212121;
+
+	--accent-color: #2196f3;
+
+	--primary-bg-color: #ffffff;
+	--secondary-bg-color: #f5f4fa;
+	--tertiary-bg-color: #2f303a;
+	--html-whitespace-sensitivity: strict;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: var(--primary-text-color);
+}
+
+.page {
+	background-color: var(--primary-bg-color);
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.btn {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+	background: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-title-color);
+}
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+/* ----------------------------------Styles for header---------------------------------- */
+
+.page-header {
+	background-color: var(--primary-bg-color);
+}
+
+/* ------------PAGE LOGO------------ */
+
+.page-logo,
+.footer-logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+}
+
+.page-blue-logo {
+	color: var(--accent-color);
+}
+
+/* ------------SITE NAV------------ */
+
+.site-nav-item,
+.contacts-nav-item {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
+}
+
+.site-nav-item:hover,
+.site-nav-item:focus,
+.contacts-nav-item:hover,
+.contacts-nav-item:focus {
+	color: var(--accent-color);
+}
+
+.site-nav-item .link.current {
+	color: var(--accent-color);
+}
+
+.contacts-nav-item {
+	color: var(--primary-text-color);
+}
+
+/* ----------------------------------Styles for index.html---------------------------------- */
+/* ------------HERO------------- */
+
+.hero {
+	background-color: var(--tertiary-bg-color);
+}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+/* ------------VALUES------------ */
+
+.value-item {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--secondary-title-color);
+}
+
+.value-text {
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+}
+
+/* ------------ACTIVITIES------------ */
+
+/* ------------TEAM------------ */
+
+.team {
+	background-color: var(--secondary-bg-color);
+}
+
+.team-item-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--secondary-title-color);
+}
+.team-item-text {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* ----------------------------------Styles for footer---------------------------------- */
+
+.footer {
+	background-color: var(--tertiary-bg-color);
+}
+
+.footer-logo {
+	color: #ffffff;
+}
+
+.address {
+	font-style: normal;
+}
+
+.contacts {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+}
+
+.contacts-address {
+	color: #ffffff;
+}
+
+.footer-contacts {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/* ----------------------------------Styles for portfolio.html---------------------------------- */
+/* ------------PORTFOLIO------------ */
+
+.filter-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+	background-color: #f5f4fa;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.filter-btn:focus {
+	color: #ffffff;
+	background-color: var(--accent-color);
+}
+
+.filter-result-item-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--primary-title-color);
+}
+
+.filter-result-item-text {
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
